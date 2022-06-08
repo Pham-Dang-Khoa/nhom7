@@ -7,10 +7,10 @@
         -->
         <meta charset="UTF-8" />
         <title>Cake Bakery</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="stylebanbanhngot.css" type="text/css">
         <link rel="stylesheet" href="stylefooter.css" type="text/css">
     </head>
@@ -18,21 +18,22 @@
     <body>
         <header>
             <ul class="inner-header container">
-                <a href="" id="logo"><img src="logo.png"/></a>
-            <nav>
+                <a href="trangchu.htm" id="logo"><img src="logo.png"/></a>
+                
+                <nav>
                 <ul id="main-menu">
-                    <li><a href="trangchu.htm" >Trang Chủ</a></li>
+                    <li><a href="trangchu.htm">Trang Chủ</a></li>
                     <li><a href="sanpham.htm" >Sản Phẩm</a>
                         <ul class="sub-menu">
-                            <li><a href="banhngot.htm" >Bánh Ngọt</a></li>
-                            <li><a href="banhsinhnhat.htm" >Bánh Sinh Nhật</a></li>
-                            <li><a href="banhtinhnhan.htm" >Bánh Tình Nhân</a></li>
+                            <li><a href="banhngot.htm" >Bánh ngọt</a></li>
+                            <li><a href="banhsinhnhat.htm" >Bánh sinh nhật</a></li>
+                            <li><a href="banhtinhnhan.htm" >Bánh tình nhân</a></li>
                         </ul>
                     </li>
-                    <li><a href="uudaikethop.htm" >Ưu Đãi</a></li>
-                    <li><a href="gioithieu.html" >Giới Thiệu</a></li>
-                    <li><a href="lienhe.html" >Tài khoản</a></li>
-                    
+                    <li><a href="uudaikethop.htm">Ưu Đãi</a></li>
+                    <li><a href="gioithieu.html">Giới Thiệu</a></li>
+                    <li><a href="lienhe.html">Tài khoản</a></li>
+                  
                     
                     <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="position:relative ;left: 250px;">Giỏ hàng</button>
 
@@ -80,97 +81,114 @@
             </div>
                 </ul>
                 
-            </nav>
-            </ul>
-             
+                </nav>
                 
+
+                    
+                
+            </ul>
+            
         </header>
-        <ul id="banner1">
-            <div class="box">
-                <div class="container-2">
-                    <span class="icon"><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" placeholder="Search..." />
+            
+            <ul id="banner1">
+                <div class="box" style="top: 10px;">
+                    <div class="container-2">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Search..." />
+                    </div>
                 </div>
-            </div>
-        </ul>
-        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-        <script>
-            $(document).ready(function(){
-             $(window).scroll(function(){
-                    if($(this).scrollTop()){
-                        $('header').addClass('sticky');
-                    }else{
-                        $('header').removeClass('sticky');
-                    }
+            </ul>
+            
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script>
+                $(document).ready(function(){
+                 $(window).scroll(function(){
+                        if($(this).scrollTop()){
+                            $('header').addClass('sticky');
+                        }else{
+                            $('header').removeClass('sticky');
+                        }
+                    });
                 });
-            });
-        </script>
+            </script>
         
         <div class="product_index">
+            <h1>CÁC LOẠI BÁNH TỐT NHẤT CỦA CHÚNG TÔI CHO BẠN</h1>
+            <p>Chúng tôi gửi gắm đến bạn những chiếc bánh ngọt , giá rẻ, vệ sinh và chất lượng luôn được đặt lên hàng đầu.
+                Sự ra đời của mỗi chiếc bánh đều được chọn lọc kỹ lưỡng tâm huyết của đội ngũ chúng tôi từ khâu nguyên liệu, 
+                chế biến để khi đến tay của các bạn, chúng đều trở thành sản phẩm hoàn hảo nhất.</p>
             <div id="content" class="container">
                 <div class="pro">
                     <a href="thongtinsp.html">
-                        <img src="thay4.jpg"/>
-                        <p>Death by Chocolate<br/>390.000 VND</p>
+                        <img src="thay1.jpg" />
+                        <p>Bánh Tiramisu, Ý <br/> 390.000 VND</p>
+                        
                     </a>
+                </div>
+
+                <div class="pro">
+                    <a href="thongtinsp.html">
+                        <img src="thay2.jpg"/>
+                        <p>Burger<br/>149.000 VND</p>
+                        
+                    </a>    
                 </div>
                 <div class="pro">
                     <a href="thongtinsp.html">
-                        <img src="b22.jpg"/>
-                        <p>Bánh Socola Ferrero<br/>190.000 VND</p>
-                    </a>
+                        <img src="b26.jpg"/>
+                        <p>Bánh Cao Cấp Vanilla <br/>329.000 VND</p>
+                        
+                    </a>    
                 </div>
                 <div class="pro">
                     <a href="thongtinsp.html">
-                        <img src="thay5(1).jpg"/>
-                        <p>Bánh Black Forest<br/>249.000 VND</p>
-                    </a>
+                        <img src="b9.jpg"/>
+                        <p>Bánh Black Forest<br/>229.000 VND</p>
+                        
+                    </a>    
+                </div>
+                <div class="pro">
+                    <a href="#">
+                        <img src="b10.jpg"/>
+                        <p>Bánh Dứa<br/>209.000 VND</p>
+                        
+                    </a>        
                 </div>
                 <div class="pro">
                     <a href="thongtinsp.html">
-                        <img src="thay6.jpg"/>
-                        <p>Fruit Choco Cake<br/>209.000 VND</p>
-                    </a>
-                </div>
-                <div class="pro">
-                    <a href="thongtinsp.html">
-                        <img src="thay7.jpg"/>
-                        <p>Choco Strawberry Cake<br/>219.000 VND</p>
-                    </a>
-                    
-                </div>
-                <div class="pro">
-                    <a href="thongtinsp.html">
-                        <img src="thay8.jpg"/>
-                        <p>Rakhi Theme Cake<br/>209.000 VND</p>
-                    </a>
-                </div>
+                        <img src="b14.jpg"/>
+                        <p>Bánh Valvet đỏ<br/>229.000 VND</p>
+                        
+                    </a>    
+                </div> 
                 <div class="pro">
                     <a href="thongtinsp.html">
                         <img src="b7.jpg"/>
-                        <p>Bánh Mixed Fruit<br/>259.000 VND</p>
-                    </a>
+                        <p>Bánh Mochi, Nhật Bản<br/>259.000 VND</p>
+                        
+                    </a>    
                 </div>
                 <div class="pro">
                     <a href="thongtinsp.html">
-                        <img src="thay10.jpg"/>
-                        <p>Fresh Fruit Cake<br/>229.000 VND</p>
-                    </a>
+                        <img src="thay3.jpg"/>
+                        <p>Chocolate Cake<br/>229.000 VND</p>
+                        
+                    </a>    
                 </div>
-        </div>
+            </div>
         </div>
         <section>
-            <ul id="near-footer">
-                    <marquee id="mar" scrollamount="15" direction="right" loop="100" behavior="scroll" scrolldelay="0" onmouseover="this.stop()" onmouseout="this.start()">
-        
-                        <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
-                        <a href=""><img src="b4.jpg" title="" width="300" height="240"/> </a>
-                        <a href=""><img src="b5.jpg" title="" width="300" height="240"/> </a>
-                        <a href=""><img src="b6.jpg" title="" width="300" height="240"/> </a>
-                        <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
-                        <a href=""><img src="b8.jpg" title="" width="300" height="240"/> </a>
-                       
-                    </marquee>
+        <ul id="near-footer">
+                <marquee id="mar" scrollamount="15" direction="right" loop="100" behavior="scroll" scrolldelay="0" onmouseover="this.stop()" onmouseout="this.start()">
+    
+                    <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b4.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b5.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b6.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b7.jpg" title="" width="300" height="240"/> </a>
+                    <a href=""><img src="b8.jpg" title="" width="300" height="240"/> </a>
+                   
+                </marquee>
             </ul>
         </section>
         <footer>
